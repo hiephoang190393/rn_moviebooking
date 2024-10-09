@@ -25,7 +25,8 @@ export const MovieFavorite = memo(({id, isFavorite}: MovieFavoriteProps) => {
 
     return (
         <CustomButton
-            name={isFavorite ? 'Đã thích' : 'Yêu Thích'}
+            testID="favoriteButton"
+            name={isFavorite ? 'Đã Thích' : 'Yêu Thích'}
             onPress={onFavorite}
             borderColor={isFavorite ? 'red' : '#2E2020'}
             color={isFavorite ? '#fff' : '#2E2020'}

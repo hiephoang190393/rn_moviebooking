@@ -27,6 +27,7 @@ export const MovieBooking = ({id}: MovieBookingProps) => {
 
     return (
         <CustomButton
+            testID='bookingButton'
             style={styles.button}
             textSize={TextSize.S_XL}
             textWeight={TextWeight.BOLD}

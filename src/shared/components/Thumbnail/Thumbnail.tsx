@@ -12,6 +12,7 @@ export const Thumbnail = React.memo((props: ThumbnailProps) => {
     return (
         <View style={styles.container}>
             <Image
+                testID='thumbnail'
                 style={styles.image}
                 source={{
                     uri,

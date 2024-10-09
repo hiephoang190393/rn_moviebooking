@@ -13,6 +13,5 @@ export const styles = StyleSheet.create({
     text: {
         textAlign: 'center',
         padding: 4,
-        textTransform: 'uppercase',
     },
 });
